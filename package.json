@@ -1,0 +1,20 @@
+{
+  "name": "drizzy-ai",
+  "version": "2.0",
+  "description": "Artificial Intelligence version of Drake",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Ellsworth",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/silentrob/superscript-editor/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

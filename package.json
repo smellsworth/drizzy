@@ -1,6 +1,6 @@
 {
   "name": "drizzy-ai",
-  "version": "2.0",
+  "version": "2.0.0",
   "description": "Artificial Intelligence version of Drake",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     }
   ],
   "dependencies": {
+    "rita": "^1.0.951",
+    "spewer": "^0.1.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

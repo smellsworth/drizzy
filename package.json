@@ -14,8 +14,10 @@
     }
   ],
   "dependencies": {
+    "lodash": "^3.10.0",
     "rita": "^1.0.951",
-    "spewer": "^0.1.2"
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.1.1"
   },
   "devDependencies": {}
 }

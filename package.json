@@ -15,6 +15,7 @@
   ],
   "dependencies": {
     "lodash": "^3.10.0",
+    "promise": "^7.0.3",
     "rita": "^1.0.951",
     "underscore": "^1.8.3",
     "underscore.string": "^3.1.1"

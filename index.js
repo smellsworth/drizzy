@@ -4,6 +4,7 @@ var fs = require('fs');
 var r = rita.RiTa;
 var _ = require('lodash');
 var Promise = require( 'promise' );
+var dLex = require('./lexicon.js');
 
 // helper added to all arrays for picking a random element
 Array.prototype.pick = function() {
@@ -61,11 +62,12 @@ function catchUp (word) {
       } );
     } );
   } );
-
 }
 
+
+
 for (var x = 0; x < 10; x++) {
-  catchUp( lexicon.randomWord() ).done( function( statement ) {
+  catchUp( dLex.pick().word ).done( function( statement ) {
     console.log( statement );
   } );
 }
